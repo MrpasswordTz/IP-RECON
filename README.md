@@ -22,7 +22,7 @@ pkg upgrade
 pkg install git 
 git clone https://github.com/MrpasswordTz/IP-RECON.git
 cd IP-RECON
-chmod +× ip.sh
+chmod +x ip.sh
 ./ip.sh
 python3 recon.py
 ```
@@ -30,7 +30,7 @@ python3 recon.py
 ```
 git clone https://github.com/MrpasswordTz/IP-RECON.git
 cd IP-RECON
-chmod +× ip.sh
+chmod +x ip.sh
 ./ip.sh
 python3 recon.py
 ```
