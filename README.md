@@ -1,4 +1,4 @@
-# IP-RECON
+# IP-RECON V1
 Ip-Recon is a python powerful reconnaissance tool for retrieving ip address information by using Geo.ipfy API, it developed for  termux and linux,Created by MrpasswordTz on Github. Aimed for helping cyber security to perform lookup and identify their target therefore it facilitate information gathering as well as it work
 
 # Features 
@@ -9,6 +9,7 @@ Ip-Recon is a python powerful reconnaissance tool for retrieving ip address info
 </ul>
 
 # Termux installation
+```
 pkg update 
 pkg upgrade 
 pkg install git 
@@ -17,3 +18,12 @@ cd IP-RECON
 chmod +× ip.sh
 ./ip.sh
 python3 recon.py
+```
+# Linux installation 
+```
+git clone https://github.com/MrpasswordTz/IP-RECON.git
+cd IP-RECON
+chmod +× ip.sh
+./ip.sh
+python3 recon.py
+```
