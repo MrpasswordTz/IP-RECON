@@ -9,6 +9,10 @@ Ip-Recon is a python powerful reconnaissance tool for retrieving ip address info
   <li>Easy to use, user friendly</li>
   <li>For both linux and Termux</li>
   <li>fast lookup and high accuracy </li>
+  <li>it retrive many results </li>
+
+  <img src="https://github.com/MrpasswordTz/IP-RECON/blob/main/results.jpg" alt="ip-recon-results">
+
 </ul>
 
 # Termux installation
