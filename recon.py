@@ -1,12 +1,7 @@
 import requests
 import pyfiglet
-from key import*
 import os
-from dotenv import load_dotenv
 from colorama import Fore, init
-
-def configure():
-	load_dotenv()
 
 results = " === Show Information IP ADDRESS ===\n"
 logo = pyfiglet.figlet_format('IP-RECON')
@@ -63,8 +58,7 @@ def print_ip_info(data):
     
 
 def main():
-    configure()
-    api_key = os.getenv('key')
+    api_key = "at_BFePrsj5R5xI9sPpoYQarq8SxwHib"
     print(Fore.CYAN + logo + Fore.RESET)
     print('''Author: MrpasswordTz.             V1\n''')
     ip_address = input("Enter target IP address: ")
