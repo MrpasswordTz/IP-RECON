@@ -1,5 +1,6 @@
 import requests
 import pyfiglet
+from key import*
 from colorama import Fore, init
 
 results = " === Show Information IP ADDRESS ===\n"
@@ -57,7 +58,7 @@ def print_ip_info(data):
     
 
 def main():
-    api_key = "at_BFePrsj5R5xI9sPpoYQarq8SxwHib"
+    api_key = key
     print(Fore.CYAN + logo + Fore.RESET)
     print('''Author: MrpasswordTz.             V1\n''')
     ip_address = input("Enter target IP address: ")
